@@ -1,0 +1,10 @@
+.button__disabled.button__disabled {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: default;
+}
+
+.button__disabled.button__disabled:hover {
+  background-color: #f1f1f1;
+  color: black;
+}

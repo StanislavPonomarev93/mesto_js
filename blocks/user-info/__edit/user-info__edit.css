@@ -1,0 +1,26 @@
+.user-info__edit {
+  background-color: #00040c;
+  color: #fff;
+  border: 1px solid #0e192e;
+  font-size: 12px;
+  line-height: 15px;
+  width: 38px;
+  height: 18px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.user-info__edit:hover {
+  background-color: #23395a;
+  color: #fff;
+  transition: .4s;
+}
+
+.user-info__edit:active {
+  background-color: #6495ed;
+}
+
+.user-info__edit:focus {
+  outline-color: greenyellow;
+}

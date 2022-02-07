@@ -1,0 +1,22 @@
+@import url(./__disabled/button__disabled.css);
+
+.button {
+  background-color: #00040c;
+  color: #fff;
+  border: 1px solid #0e192e;
+  width: 120px;
+  height: 40px;
+  font-size: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #23395a;
+  color: #fff;
+  transition: .4s;
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}

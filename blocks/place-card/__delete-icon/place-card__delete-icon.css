@@ -1,0 +1,21 @@
+.place-card__delete-icon {
+  background: url(../../../images/trash-icon.svg) center no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 22px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: block;
+  transition: transform .3s linear;
+}
+
+.place-card__delete-icon:hover {
+  transform: scale(1.09);
+}
+
+.place-card__delete-icon:focus {
+  outline: none;
+}
